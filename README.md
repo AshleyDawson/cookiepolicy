@@ -40,6 +40,9 @@ You can also pass several options to CookiePolicy:
 				, on_close: function() {
 					// Callback that runs when the message box is closed (When the close event is triggered)
 				}
+				, on_closed: function() {
+					// Callback that runs when the message box is closed (When close event has been previously triggered)
+				}
 			});
                 });
         </script>
