@@ -47,11 +47,10 @@
 	$.fn.cookiepolicy = function(options) {
 		
 		$.settings = $.extend({
-			 message: 'We use cookies to give you the best possible online experience. If you continue, ' + 
-				 'we\'ll assume you are happy for your web browser to receive all cookies from our website. ' + 
-				 'See our <a href="%cookie_policy_url%">cookie policy</a> for more information on cookies and how to manage them.'
+			 message: 'Our cookies to give you an awesome online experience. If you continue to use this site, ' + 
+				 'we\'ll assume you are happy for your web browser to receive cookies from us. ' + 
+				 'See our <a href="%cookie_policy_url%">cookie policy</a> for more information on cookies.'
 			, extra_class: ''
-			, css_path: '/assets/cookiepolicy/cookiepolicy.jquery.css'
 			, cookie_policy_url: 'http://www.google.com/'
 			, close_button_text: 'Close'
 			, close_button_title: 'Close this cookie policy message box'
