@@ -22,7 +22,7 @@ The CookiePolicy plugin works by appending the HTML for the message box to an el
 		});
 	</script>
 
-You can also pass several options to CookiePolicy, you can do so like this:
+You can also pass several options to CookiePolicy:
 
         <script type="text/javascript">
                 $(document).ready(function() {
