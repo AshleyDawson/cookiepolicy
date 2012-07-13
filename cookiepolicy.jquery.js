@@ -47,17 +47,18 @@
 	$.fn.cookiepolicy = function(options) {
 		
 		$.settings = $.extend({
-			 message: 'Our cookies to give you an awesome online experience. If you continue to use this site, ' + 
+			 message: 'Our cookies give you an awesome online experience. If you continue to use this site, ' + 
 				 'we\'ll assume you are happy for your web browser to receive cookies from us. ' + 
 				 'See our <a href="%cookie_policy_url%">cookie policy</a> for more information on cookies.'
 			, extra_class: ''
-			, cookie_policy_url: 'http://www.google.com/'
+			, cookie_policy_url: 'http://www.example.com/cookie-policy.html'
 			, close_button_text: 'Close'
 			, close_button_title: 'Close this cookie policy message box'
 			, cookie_name: 'hide_cookie_policy_message'
 			, cookie_expire_days: 10
 			, on_open: function() { }
 			, on_close: function() { }
+			, on_closed: function() { }
 		}, options);
 		
 		var base_node = this;
@@ -75,6 +76,8 @@
 				methods._setCookie($.settings.cookie_name, true, $.settings.cookie_expire_days);
 				$.settings.on_close();
 			});
+		} else {
+			$.settings.on_closed();
 		}
 		
 	}
