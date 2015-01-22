@@ -1,3 +1,10 @@
+Update
+======
+
+For a better cookie policy plugin, please use [http://cookiecuttr.com/](http://cookiecuttr.com/)
+
+Please consider this plugin deprecated.
+
 CookiePolicy
 ============
 
