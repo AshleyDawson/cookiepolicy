@@ -1,14 +1,9 @@
-Update
-======
-
-For a better cookie policy plugin, please use [http://cookiecuttr.com/](http://cookiecuttr.com/)
-
-Please consider this plugin deprecated.
 
 CookiePolicy
 ============
 
-A jQuery plugin to implement an EU implied cookie concent message box
+A jQuery plugin to implement an EU implied cookie consent message box. This plugin is not designed to control the inclusion 
+of 3rd party JavaScript - it simply provides a mechanism to dismiss the cookie policy message.
 
 Installation
 ------------
